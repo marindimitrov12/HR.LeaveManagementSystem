@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "b56311fc-356b-41b8-866b-df6cec11b262": {
+      "ProjectGuid": "b56311fc-356b-41b8-866b-df6cec11b262",
+      "DisplayName": "HR.LeaveManagement.Domain",
+      "ColorIndex": 0
+    },
+    "f1d5f375-6351-499d-8826-e1eb0508832d": {
+      "ProjectGuid": "f1d5f375-6351-499d-8826-e1eb0508832d",
+      "DisplayName": "HR.LeaveManagement.Application",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
