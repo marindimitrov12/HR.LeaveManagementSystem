@@ -9,7 +9,7 @@ namespace HR.LeaveManagement.Persistence
         public LeaveManagementDbContext(DbContextOptions<LeaveManagementDbContext>options)
             :base(options)
         {
-
+             
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
