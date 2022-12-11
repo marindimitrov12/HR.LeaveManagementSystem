@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "HR.LeaveManagement.Infrasructure/1.0.0": {
+        "runtime": {
+          "HR.LeaveManagement.Infrasructure.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HR.LeaveManagement.Infrasructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

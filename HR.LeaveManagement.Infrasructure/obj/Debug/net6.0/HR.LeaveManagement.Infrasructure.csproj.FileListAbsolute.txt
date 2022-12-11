@@ -1,0 +1,12 @@
+C:\Users\Owner\Desktop\Asp.Net.Core_Advanced\HR.LeaveManagementSystem\HR.LeaveManagement.Infrasructure\bin\Debug\net6.0\HR.LeaveManagement.Infrasructure.deps.json
+C:\Users\Owner\Desktop\Asp.Net.Core_Advanced\HR.LeaveManagementSystem\HR.LeaveManagement.Infrasructure\bin\Debug\net6.0\HR.LeaveManagement.Infrasructure.dll
+C:\Users\Owner\Desktop\Asp.Net.Core_Advanced\HR.LeaveManagementSystem\HR.LeaveManagement.Infrasructure\bin\Debug\net6.0\ref\HR.LeaveManagement.Infrasructure.dll
+C:\Users\Owner\Desktop\Asp.Net.Core_Advanced\HR.LeaveManagementSystem\HR.LeaveManagement.Infrasructure\bin\Debug\net6.0\HR.LeaveManagement.Infrasructure.pdb
+C:\Users\Owner\Desktop\Asp.Net.Core_Advanced\HR.LeaveManagementSystem\HR.LeaveManagement.Infrasructure\obj\Debug\net6.0\HR.LeaveManagement.Infrasructure.csproj.AssemblyReference.cache
+C:\Users\Owner\Desktop\Asp.Net.Core_Advanced\HR.LeaveManagementSystem\HR.LeaveManagement.Infrasructure\obj\Debug\net6.0\HR.LeaveManagement.Infrasructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Owner\Desktop\Asp.Net.Core_Advanced\HR.LeaveManagementSystem\HR.LeaveManagement.Infrasructure\obj\Debug\net6.0\HR.LeaveManagement.Infrasructure.AssemblyInfoInputs.cache
+C:\Users\Owner\Desktop\Asp.Net.Core_Advanced\HR.LeaveManagementSystem\HR.LeaveManagement.Infrasructure\obj\Debug\net6.0\HR.LeaveManagement.Infrasructure.AssemblyInfo.cs
+C:\Users\Owner\Desktop\Asp.Net.Core_Advanced\HR.LeaveManagementSystem\HR.LeaveManagement.Infrasructure\obj\Debug\net6.0\HR.LeaveManagement.Infrasructure.csproj.CoreCompileInputs.cache
+C:\Users\Owner\Desktop\Asp.Net.Core_Advanced\HR.LeaveManagementSystem\HR.LeaveManagement.Infrasructure\obj\Debug\net6.0\HR.LeaveManagement.Infrasructure.dll
+C:\Users\Owner\Desktop\Asp.Net.Core_Advanced\HR.LeaveManagementSystem\HR.LeaveManagement.Infrasructure\obj\Debug\net6.0\ref\HR.LeaveManagement.Infrasructure.dll
+C:\Users\Owner\Desktop\Asp.Net.Core_Advanced\HR.LeaveManagementSystem\HR.LeaveManagement.Infrasructure\obj\Debug\net6.0\HR.LeaveManagement.Infrasructure.pdb

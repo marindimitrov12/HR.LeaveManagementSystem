@@ -1,0 +1,12 @@
+C:\Users\Owner\Desktop\Asp.Net.Core_Advanced\HR.LeaveManagementSystem\HR.LeaveManagement.Application\bin\Debug\net6.0\HR.LeaveManagement.Application.deps.json
+C:\Users\Owner\Desktop\Asp.Net.Core_Advanced\HR.LeaveManagementSystem\HR.LeaveManagement.Application\bin\Debug\net6.0\HR.LeaveManagement.Application.dll
+C:\Users\Owner\Desktop\Asp.Net.Core_Advanced\HR.LeaveManagementSystem\HR.LeaveManagement.Application\bin\Debug\net6.0\ref\HR.LeaveManagement.Application.dll
+C:\Users\Owner\Desktop\Asp.Net.Core_Advanced\HR.LeaveManagementSystem\HR.LeaveManagement.Application\bin\Debug\net6.0\HR.LeaveManagement.Application.pdb
+C:\Users\Owner\Desktop\Asp.Net.Core_Advanced\HR.LeaveManagementSystem\HR.LeaveManagement.Application\obj\Debug\net6.0\HR.LeaveManagement.Application.csproj.AssemblyReference.cache
+C:\Users\Owner\Desktop\Asp.Net.Core_Advanced\HR.LeaveManagementSystem\HR.LeaveManagement.Application\obj\Debug\net6.0\HR.LeaveManagement.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Owner\Desktop\Asp.Net.Core_Advanced\HR.LeaveManagementSystem\HR.LeaveManagement.Application\obj\Debug\net6.0\HR.LeaveManagement.Application.AssemblyInfoInputs.cache
+C:\Users\Owner\Desktop\Asp.Net.Core_Advanced\HR.LeaveManagementSystem\HR.LeaveManagement.Application\obj\Debug\net6.0\HR.LeaveManagement.Application.AssemblyInfo.cs
+C:\Users\Owner\Desktop\Asp.Net.Core_Advanced\HR.LeaveManagementSystem\HR.LeaveManagement.Application\obj\Debug\net6.0\HR.LeaveManagement.Application.csproj.CoreCompileInputs.cache
+C:\Users\Owner\Desktop\Asp.Net.Core_Advanced\HR.LeaveManagementSystem\HR.LeaveManagement.Application\obj\Debug\net6.0\HR.LeaveManagement.Application.dll
+C:\Users\Owner\Desktop\Asp.Net.Core_Advanced\HR.LeaveManagementSystem\HR.LeaveManagement.Application\obj\Debug\net6.0\ref\HR.LeaveManagement.Application.dll
+C:\Users\Owner\Desktop\Asp.Net.Core_Advanced\HR.LeaveManagementSystem\HR.LeaveManagement.Application\obj\Debug\net6.0\HR.LeaveManagement.Application.pdb
