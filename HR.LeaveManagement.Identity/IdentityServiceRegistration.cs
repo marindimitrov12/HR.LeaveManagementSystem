@@ -8,14 +8,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Microsoft.Extensions.DependencyInjection
+namespace HR.LeaveManagement.Identity
 {
     public static class IdentityServiceRegistration
     {
         public static IServiceCollection ConfigureIdentityServices(this IServiceCollection services,IConfiguration configuration)
         {
             services.AddDbContext<LeaveManagementIdentityDbContext>(options=>
-            options.UseSqlServer(configuration.GetConnectionString("LeaveManagementIdentityConnectionString")));
+            options.UseSqlServer(configuration.GetConnectionString("LeaveManagementConnectionString")));
             return services;
         }
     }

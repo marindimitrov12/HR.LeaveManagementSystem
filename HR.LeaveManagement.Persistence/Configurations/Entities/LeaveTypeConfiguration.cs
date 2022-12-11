@@ -18,13 +18,19 @@ namespace HR.LeaveManagement.Persistence.Configurations.Entities
                 {
                     Id = 1,
                     DefaultDays = 10,
-                    Name = "vacation"
+                    Name = "vacation",
+                    CreatedBy = "SystemAdmin",
+                    LastModifiedDate = DateTime.Now,
+                    LastModifiedBy = "SystemAdmin"
                 },
                 new LeaveType
                 {
                     Id = 2,
                     DefaultDays = 12,
-                    Name = "sick"
+                    Name = "sick",
+                    CreatedBy="SystemAdmin",
+                    LastModifiedDate = DateTime.Now,
+                    LastModifiedBy = "SystemAdmin"
                 }
             );
         }
