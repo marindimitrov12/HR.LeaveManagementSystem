@@ -19,13 +19,13 @@ namespace HR.LeaveManagement.Identity.Configurations
                  new ApplicationUser
                  {
                      Id = "8e445865-a24d-4543-a6c6-9443d048cdb9",
-                     Email = "admin@localhost.com",
-                     NormalizedEmail = "ADMIN@LOCALHOST.COM",
+                     Email = "manager@localhost.com",
+                     NormalizedEmail = "MANAGER@LOCALHOST.COM",
                      FirstName = "System",
-                     LastName = "Admin",
-                     UserName = "admin@localhost.com",
-                     NormalizedUserName = "ADMIN@LOCALHOST.COM",
-                     PasswordHash = hasher.HashPassword(null, "Admin1"),
+                     LastName = "Manager",
+                     UserName = "manager@localhost.com",
+                     NormalizedUserName = "MANAGER@LOCALHOST.COM",
+                     PasswordHash = hasher.HashPassword(null, "Manager1"),
                      EmailConfirmed = true
                  },
                  new ApplicationUser
