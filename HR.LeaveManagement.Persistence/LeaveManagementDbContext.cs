@@ -13,7 +13,8 @@ namespace HR.LeaveManagement.Persistence
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            base.OnModelCreating(modelBuilder);
+          // modelBuilder.Entity<LeaveRequest>().Property(t=>t.R)
+
         } 
         public DbSet<LeaveRequest> LeaveRequests{ get; set; }
         public DbSet<LeaveType> LeaveTypes{ get; set; }
