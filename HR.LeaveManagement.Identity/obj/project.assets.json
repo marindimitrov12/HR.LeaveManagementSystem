@@ -1210,11 +1210,24 @@
       "HR.LeaveManagement.Application/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "HR.LeaveManagement.Domain": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/HR.LeaveManagement.Application.dll": {}
         },
         "runtime": {
           "bin/placeholder/HR.LeaveManagement.Application.dll": {}
+        }
+      },
+      "HR.LeaveManagement.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/HR.LeaveManagement.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HR.LeaveManagement.Domain.dll": {}
         }
       }
     }
@@ -3782,6 +3795,11 @@
       "type": "project",
       "path": "../HR.LeaveManagement.Application/HR.LeaveManagement.Application.csproj",
       "msbuildProject": "../HR.LeaveManagement.Application/HR.LeaveManagement.Application.csproj"
+    },
+    "HR.LeaveManagement.Domain/1.0.0": {
+      "type": "project",
+      "path": "../HR.LeaveManagment.Domain/HR.LeaveManagement.Domain.csproj",
+      "msbuildProject": "../HR.LeaveManagment.Domain/HR.LeaveManagement.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {

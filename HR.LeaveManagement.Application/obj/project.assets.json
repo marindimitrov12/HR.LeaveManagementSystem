@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "HR.LeaveManagement.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/HR.LeaveManagement.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HR.LeaveManagement.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "HR.LeaveManagement.Domain/1.0.0": {
+      "type": "project",
+      "path": "../HR.LeaveManagment.Domain/HR.LeaveManagement.Domain.csproj",
+      "msbuildProject": "../HR.LeaveManagment.Domain/HR.LeaveManagement.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "HR.LeaveManagement.Domain >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Owner\\.nuget\\packages\\": {},
@@ -45,7 +64,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Owner\\Desktop\\Asp.Net.Core_Advanced\\HR.LeaveManagementSystem\\HR.LeaveManagment.Domain\\HR.LeaveManagement.Domain.csproj": {
+              "projectPath": "C:\\Users\\Owner\\Desktop\\Asp.Net.Core_Advanced\\HR.LeaveManagementSystem\\HR.LeaveManagment.Domain\\HR.LeaveManagement.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

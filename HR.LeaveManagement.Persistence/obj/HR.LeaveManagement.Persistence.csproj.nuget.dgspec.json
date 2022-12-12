@@ -36,7 +36,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\Owner\\Desktop\\Asp.Net.Core_Advanced\\HR.LeaveManagementSystem\\HR.LeaveManagment.Domain\\HR.LeaveManagement.Domain.csproj": {
+                "projectPath": "C:\\Users\\Owner\\Desktop\\Asp.Net.Core_Advanced\\HR.LeaveManagementSystem\\HR.LeaveManagment.Domain\\HR.LeaveManagement.Domain.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
