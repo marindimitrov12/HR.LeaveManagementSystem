@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using HR.LeaveManagement.Application.Contracts;
 using HR.LeaveManagement.Application.Contracts.Persistence;
 using HR.LeaveManagement.Application.DTOs;
 using HR.LeaveManagement.Application.DTOs.LeaveType.Validators;
@@ -13,7 +14,7 @@ using System.Threading.Tasks;
 
 namespace HR.LeaveManagement.Application.Services
 {
-    public class LeaveTypesService
+    public class LeaveTypesService:ILeaveTypesService
     {
         private readonly IUnitOfWork _unitOfWork;
         private readonly IMapper _mapper;
