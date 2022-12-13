@@ -79,13 +79,13 @@ namespace HR.LeaveManagement.Application.Services
             await _unitOfWork.Save();
             return result;
         }
-        public async Task<int> DeleteLeaveType(LeaveTypeDto dto)
+        public async Task<int> DeleteLeaveType(int id)
         {
             var result = 1;
-            var leaveType = await _unitOfWork.LeaveTypeRepository.Get(dto.Id);
+            var leaveType = await _unitOfWork.LeaveTypeRepository.Get(id);
             if (leaveType == null)
             {
-                throw new NotFoundException(nameof(LeaveType), dto.Id);
+                throw new NotFoundException(nameof(LeaveType), id);
                 result=0;
             }
             await _unitOfWork.LeaveTypeRepository.Delete(leaveType);
