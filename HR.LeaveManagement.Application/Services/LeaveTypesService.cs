@@ -48,6 +48,12 @@ namespace HR.LeaveManagement.Application.Services
             else
             {
                 var leaveType = _mapper.Map<LeaveType>(dto);
+                leaveType.LastModifiedDate=DateTime.Now;
+                leaveType.CreatedBy = "System";
+                leaveType.LastModifiedBy = "System";
+                leaveType.DateCreated = DateTime.Now;
+                leaveType.CreatedBy = "System";
+                
                 leaveType = await _unitOfWork.LeaveTypeRepository.Add(leaveType);
                 await _unitOfWork.Save();
 

@@ -16,12 +16,12 @@ namespace HR.LeaveManagement.Application.Profiles
         public MappingProfile()
         {
             #region LeaveRequest Mappings
-          //  CreateMap<LeaveRequest, LeaveRequestDto>().ReverseMap();
-          //  CreateMap<LeaveRequest, LeaveRequestListDto>()
+           // CreateMap<LeaveRequest, LeaveRequestDto>().ReverseMap();
+          // CreateMap<LeaveRequest, LeaveRequestListDto>()
              //   .ForMember(dest => dest.DateRequested, opt => opt.MapFrom(src => src.DateCreated))
-             //   .ReverseMap();
+              //  .ReverseMap();
            // CreateMap<LeaveRequest, CreateLeaveRequestDto>().ReverseMap();
-          //  CreateMap<LeaveRequest, UpdateLeaveRequestDto>().ReverseMap();
+         //   CreateMap<LeaveRequest, UpdateLeaveRequestDto>().ReverseMap();
             #endregion LeaveRequest
 
             CreateMap<LeaveAllocation, LeaveAllocationDto>().ReverseMap();

@@ -1,4 +1,8 @@
-﻿using HR.LeaveManagement.Identity;
+﻿using HR.LeaveManagement.Application.Contracts.Identity;
+using HR.LeaveManagement.Identity;
+using HR.LeaveManagement.Identity.Models;
+using HR.LeaveManagement.Identity.Services;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -16,6 +20,10 @@ namespace HR.LeaveManagement.Identity
         {
             services.AddDbContext<LeaveManagementIdentityDbContext>(options=>
             options.UseSqlServer(configuration.GetConnectionString("LeaveManagementConnectionString")));
+            services.AddIdentity<ApplicationUser, IdentityRole>()
+             .AddEntityFrameworkStores<LeaveManagementIdentityDbContext>().AddDefaultTokenProviders();
+            services.AddTransient<IAuthService, AuthServise>();
+            services.AddTransient<IUserService, UserService>();
             return services;
         }
     }

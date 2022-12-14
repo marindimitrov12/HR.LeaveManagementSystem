@@ -93,7 +93,12 @@ namespace HR.LeaveManagement.Application.Services
                         EmployeeId = emp.Id,
                         LeaveTypeId = leaveType.Id,
                         NumberOfDays = leaveType.DefaultDays,
-                        Period = period
+                        Period = period,
+                        LastModifiedDate= DateTime.Now,
+                        LastModifiedBy = "System",
+                        DateCreated = DateTime.Now,
+                        CreatedBy = "System",
+                        
                     });
                 }
                 await _unitOfWork.LeaveAllocationRepository.AddAllocations(allocations);

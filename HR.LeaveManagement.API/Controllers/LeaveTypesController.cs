@@ -7,6 +7,9 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace HR.LeaveManagement.API.Controllers
 {
+    [Route("api/[controller]")]
+    [ApiController]
+   // [Authorize]
     public class LeaveTypesController : Controller
     {
         private readonly ILeaveTypesService _service;
@@ -34,7 +37,7 @@ namespace HR.LeaveManagement.API.Controllers
         [HttpPost]
         [ProducesResponseType(200)]
         [ProducesResponseType(400)]
-        [Authorize(Roles = "Administrator")]
+       // [Authorize(Roles = "Administrator")]
         public async Task<ActionResult<BaseResponse>> Post([FromBody] CreateLeaveTypeDto leaveType)
         {
             var user = _httpContextAccessor.HttpContext.User;
@@ -47,7 +50,7 @@ namespace HR.LeaveManagement.API.Controllers
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         [ProducesDefaultResponseType]
-        [Authorize(Roles = "Administrator")]
+      //  [Authorize(Roles = "Administrator")]
         public async Task<ActionResult> Put([FromBody] LeaveTypeDto leaveType)
         {
            
@@ -59,7 +62,7 @@ namespace HR.LeaveManagement.API.Controllers
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         [ProducesDefaultResponseType]
-        [Authorize(Roles = "Administrator")]
+       // [Authorize(Roles = "Administrator")]
         public async Task<ActionResult> Delete(int id)
         {
            
