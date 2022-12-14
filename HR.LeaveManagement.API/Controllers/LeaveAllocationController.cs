@@ -38,10 +38,10 @@ namespace HR.LeaveManagement.API.Controllers
             return Ok(repsonse);
         }
         // PUT api/<LeaveAllocationsController>/5
-        [HttpPut]
-        public async Task<ActionResult> Put([FromBody] UpdateLeaveAllocationDto leaveAllocation)
+        [HttpPut("{id}")]
+        public async Task<ActionResult> Put([FromBody] UpdateLeaveAllocationDto leaveAllocation,int id)
         {
-            await _service.UpdateAllocation(leaveAllocation);
+            await _service.UpdateAllocation(leaveAllocation,id);
             return NoContent();
         }
         // DELETE api/<LeaveAllocationsController>/5

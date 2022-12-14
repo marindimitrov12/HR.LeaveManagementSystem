@@ -94,10 +94,7 @@ namespace HR.LeaveManagement.Application.Services
                         LeaveTypeId = leaveType.Id,
                         NumberOfDays = leaveType.DefaultDays,
                         Period = period,
-                        LastModifiedDate= DateTime.Now,
-                        LastModifiedBy = "System",
-                        DateCreated = DateTime.Now,
-                        CreatedBy = "System",
+                       
                         
                     });
                 }
@@ -123,7 +120,7 @@ namespace HR.LeaveManagement.Application.Services
             return result;
 
         }
-        public async Task<int> UpdateAllocation(UpdateLeaveAllocationDto dto)
+        public async Task<int> UpdateAllocation(UpdateLeaveAllocationDto dto,int id)
         {
             var result = 1;
             var validator = new UpdateLeaveAllocationDtoValidator(_unitOfWork.LeaveTypeRepository);
@@ -136,11 +133,11 @@ namespace HR.LeaveManagement.Application.Services
             }
             var leaveAllocation = await _unitOfWork
                 .LeaveAllocationRepository
-                .Get(dto.Id);
+                .Get(id);
             if (leaveAllocation is null)
             {
                 throw new NotFoundException(nameof(leaveAllocation),
-                   dto.Id);
+                   id);
                 result = 0;
 
             }

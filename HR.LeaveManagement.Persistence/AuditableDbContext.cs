@@ -14,7 +14,7 @@ namespace HR.LeaveManagement.Persistence
         {
         }
 
-        public virtual async Task<int> SaveChangesAsync(string username = "SYSTEM")
+        public virtual async Task<int> SaveChangesAsync(string username = "Marin")
         {
             if (username == null)
             {

@@ -14,7 +14,7 @@ namespace HR.LeaveManagement.Application.Contracts
         public Task<List<LeaveAllocationDto>> GetLeaveAllocationListRequest(bool isLogin);
         public Task<BaseResponse> CreateLeaveAllocation(CreateLeaveAllocationDto dto);
         public Task<int> DeleteAllocation(int id);
-        public  Task<int> UpdateAllocation(UpdateLeaveAllocationDto dto);
+        public  Task<int> UpdateAllocation(UpdateLeaveAllocationDto dto,int id);
 
     }
 }

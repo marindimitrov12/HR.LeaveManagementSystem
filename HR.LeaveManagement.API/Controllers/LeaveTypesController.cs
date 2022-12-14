@@ -51,10 +51,10 @@ namespace HR.LeaveManagement.API.Controllers
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         [ProducesDefaultResponseType]
       //  [Authorize(Roles = "Administrator")]
-        public async Task<ActionResult> Put([FromBody] LeaveTypeDto leaveType)
+        public async Task<ActionResult> Put([FromBody] CreateLeaveTypeDto leaveType,int id)
         {
            
-            await _service.UpdateLeaveType(leaveType);
+            await _service.UpdateLeaveType(leaveType,id);
             return NoContent();
         }
         // DELETE api/<LeaveTypesController>/5

@@ -48,12 +48,6 @@ namespace HR.LeaveManagement.Application.Services
             else
             {
                 var leaveType = _mapper.Map<LeaveType>(dto);
-                leaveType.LastModifiedDate=DateTime.Now;
-                leaveType.CreatedBy = "System";
-                leaveType.LastModifiedBy = "System";
-                leaveType.DateCreated = DateTime.Now;
-                leaveType.CreatedBy = "System";
-                
                 leaveType = await _unitOfWork.LeaveTypeRepository.Add(leaveType);
                 await _unitOfWork.Save();
 
@@ -63,7 +57,7 @@ namespace HR.LeaveManagement.Application.Services
             }
             return response;
         }
-        public async Task<int> UpdateLeaveType(LeaveTypeDto dto)
+        public async Task<int> UpdateLeaveType(CreateLeaveTypeDto dto,int id)
         {
             var result = 1;
             var validator = new UpdateLeaveTypeDtoValidator();
@@ -74,10 +68,10 @@ namespace HR.LeaveManagement.Application.Services
                 result = 0;
             }
                
-            var leaveType = await _unitOfWork.LeaveTypeRepository.Get(dto.Id);
+            var leaveType = await _unitOfWork.LeaveTypeRepository.Get(id);
             if (leaveType is null)
             {
-                throw new NotFoundException(nameof(leaveType), dto.Id);
+                throw new NotFoundException(nameof(leaveType), id);
                 result = 0;
             }
                
@@ -102,6 +96,6 @@ namespace HR.LeaveManagement.Application.Services
 
         }
 
-
+       
     }
 }

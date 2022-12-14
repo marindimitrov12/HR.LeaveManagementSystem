@@ -10,7 +10,22 @@
       "ProjectGuid": "f1d5f375-6351-499d-8826-e1eb0508832d",
       "DisplayName": "HR.LeaveManagement.Application",
       "ColorIndex": 1
+    },
+    "631f443b-0898-48fe-bcb7-6583b8c653ef": {
+      "ProjectGuid": "631f443b-0898-48fe-bcb7-6583b8c653ef",
+      "DisplayName": "HR.LeaveManagement.API",
+      "ColorIndex": 2
+    },
+    "eee9c1b6-d91d-4834-b762-be4fdce35a2a": {
+      "ProjectGuid": "eee9c1b6-d91d-4834-b762-be4fdce35a2a",
+      "DisplayName": "HR.LeaveManagement.Identity",
+      "ColorIndex": 3
+    },
+    "80000b78-dd6a-4f58-9ce2-e66c62181ff9": {
+      "ProjectGuid": "80000b78-dd6a-4f58-9ce2-e66c62181ff9",
+      "DisplayName": "HR.LeaveManagement.Persistence",
+      "ColorIndex": 4
     }
   },
-  "NextColorIndex": 2
+  "NextColorIndex": 5
 }

@@ -13,7 +13,7 @@ namespace HR.LeaveManagement.Application.Contracts
         public  Task<List<LeaveTypeDto>> GetListRequest();
         public Task<LeaveTypeDto> GetLeaveTypeDetailRequest(int id);
         public Task<BaseResponse> CreateLeaveType(CreateLeaveTypeDto dto);
-        public Task<int> UpdateLeaveType(LeaveTypeDto dto);
+        public Task<int> UpdateLeaveType(CreateLeaveTypeDto dto,int id);
 
         public Task<int> DeleteLeaveType(int id);
     }
