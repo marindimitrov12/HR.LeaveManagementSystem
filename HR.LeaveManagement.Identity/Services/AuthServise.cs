@@ -1,4 +1,5 @@
-﻿using HR.LeaveManagement.Application.Contracts.Identity;
+﻿using HR.LeaveManagement.Application.Constants;
+using HR.LeaveManagement.Application.Contracts.Identity;
 using HR.LeaveManagement.Application.Models.Identity;
 using HR.LeaveManagement.Identity.Models;
 using Microsoft.AspNetCore.Identity;
@@ -66,6 +67,7 @@ namespace HR.LeaveManagement.Identity.Services
                 if (result.Succeeded)
                 {
                     await _userManager.AddToRoleAsync(user, "Employee");
+                    await _userManager.AddClaimAsync(user,new System.Security.Claims.Claim(CustomClaimTypes.Uid, user.Id));
                     return new RegistrationResponse() { UserId = user.Id };
                 }
                 else
