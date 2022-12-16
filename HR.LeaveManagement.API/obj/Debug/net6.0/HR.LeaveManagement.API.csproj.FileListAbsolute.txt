@@ -94,3 +94,4 @@ C:\Users\Owner\Desktop\Asp.Net.Core_Advanced\HR.LeaveManagementSystem\HR.LeaveMa
 C:\Users\Owner\Desktop\Asp.Net.Core_Advanced\HR.LeaveManagementSystem\HR.LeaveManagement.API\bin\Debug\net6.0\AutoMapper.dll
 C:\Users\Owner\Desktop\Asp.Net.Core_Advanced\HR.LeaveManagementSystem\HR.LeaveManagement.API\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\Owner\Desktop\Asp.Net.Core_Advanced\HR.LeaveManagementSystem\HR.LeaveManagement.API\bin\Debug\net6.0\FluentValidation.dll
+C:\Users\Owner\Desktop\Asp.Net.Core_Advanced\HR.LeaveManagementSystem\HR.LeaveManagement.API\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
