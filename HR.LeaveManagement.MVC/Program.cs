@@ -1,4 +1,6 @@
+using HR.LeaveManagement.MVC.Contracts;
 using HR.LeaveManagement.MVC.Services;
+using HR.LeaveManagement.MVC.Services.Base;
 using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -6,6 +8,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddHttpClient<IClient, Client>(cl=>cl.BaseAddress=new Uri("http://localhost:44398"));
 builder.Services.AddAutoMapper(Assembly.GetExecutingAssembly());
+builder.Services.AddSingleton<ILocalStorageService, LocalStorageService>();
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
