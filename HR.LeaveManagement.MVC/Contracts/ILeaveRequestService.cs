@@ -1,4 +1,5 @@
-﻿using HR.LeaveManagement.MVC.Services.Base;
+﻿using HR.LeaveManagement.MVC.Models;
+using HR.LeaveManagement.MVC.Services.Base;
 using static HR.LeaveManagement.MVC.Models.LeaveRequestVM;
 
 namespace HR.LeaveManagement.MVC.Contracts

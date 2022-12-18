@@ -1,13 +1,35 @@
 using HR.LeaveManagement.MVC.Contracts;
-using HR.LeaveManagement.MVC.Services;
 using HR.LeaveManagement.MVC.Services.Base;
+using HR.LeaveManagement.MVC.Services;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using System.Reflection;
+using System.Net.Http;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-builder.Services.AddHttpClient<IClient, Client>(cl=>cl.BaseAddress=new Uri("http://localhost:44398"));
+// Add builder.Services to the container.
+builder.Services.AddHttpContextAccessor();
+
+builder.Services.Configure<CookiePolicyOptions>(options =>
+{
+    options.MinimumSameSitePolicy = SameSiteMode.None;
+});
+
+builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+.AddCookie(options =>
+{
+    options.LoginPath = new PathString("/users/login");
+});
+
+builder.Services.AddTransient<IAuthenticationService, AuthenticationService>();
+
+builder.Services.AddHttpClient<IClient, Client>(_=>new Client("https://localhost:7297",new HttpClient()));
 builder.Services.AddAutoMapper(Assembly.GetExecutingAssembly());
+
+builder.Services.AddScoped<ILeaveTypeService, LeaveTypeService>();
+//builder.Services.AddScoped<ILeaveAllocationService, LeaveAllocationService>();
+//builder.Services.AddScoped<ILeaveRequestService, LeaveRequestService>();
+
 builder.Services.AddSingleton<ILocalStorageService, LocalStorageService>();
 builder.Services.AddControllersWithViews();
 
@@ -21,11 +43,14 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
+app.UseCookiePolicy();
+app.UseAuthentication();
+
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
-
+//app.UseMiddleware<RequestMiddleware>();
 app.UseAuthorization();
 
 app.MapControllerRoute(

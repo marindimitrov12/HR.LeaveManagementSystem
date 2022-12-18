@@ -6,16 +6,16 @@ using Microsoft.AspNetCore.Mvc;
 namespace HR.LeaveManagement.MVC.Controllers
 {
     
-        [Authorize(Roles = "Administrator")]
+        [Authorize(Roles = "Manager")]
         public class LeaveTypesController : Controller
         {
             private readonly ILeaveTypeService _leaveTypeService;
-            private readonly ILeaveAllocationService _leaveAllocationService;
+           
 
-            public LeaveTypesController(ILeaveTypeService leaveTypeService, ILeaveAllocationService leaveAllocationService)
+            public LeaveTypesController(ILeaveTypeService leaveTypeService)
             {
                 this._leaveTypeService = leaveTypeService;
-                this._leaveAllocationService = leaveAllocationService;
+          
             }
 
             // GET: LeaveTypesController
@@ -111,7 +111,7 @@ namespace HR.LeaveManagement.MVC.Controllers
                     ModelState.AddModelError("", ex.Message);
                 }
 
-                return View();
+                return BadRequest();
             }
 
            

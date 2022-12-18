@@ -37,7 +37,7 @@ namespace HR.LeaveManagement.API.Controllers
         [HttpPost]
         [ProducesResponseType(200)]
         [ProducesResponseType(400)]
-        [Authorize(Roles = "MANAGER")]
+        [Authorize(Roles = "Manager")]
         public async Task<ActionResult<BaseResponse>> Post([FromBody] CreateLeaveTypeDto leaveType)
         {
             var user = _httpContextAccessor.HttpContext.User;
@@ -50,7 +50,7 @@ namespace HR.LeaveManagement.API.Controllers
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         [ProducesDefaultResponseType]
-        [Authorize(Roles = "MANAGER")]
+        [Authorize(Roles = "Manager")]
         public async Task<ActionResult> Put([FromBody] CreateLeaveTypeDto leaveType,int id)
         {
            
@@ -62,7 +62,7 @@ namespace HR.LeaveManagement.API.Controllers
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         [ProducesDefaultResponseType]
-        [Authorize(Roles = "MANAGER")]
+        [Authorize(Roles = "Manager")]
         public async Task<ActionResult> Delete(int id)
         {
            
