@@ -2,16 +2,19 @@
 using HR.LeaveManagement.Application.Constants;
 using HR.LeaveManagement.Application.Contracts;
 using HR.LeaveManagement.Application.Contracts.Identity;
+using HR.LeaveManagement.Application.Contracts.Infrastructure;
 using HR.LeaveManagement.Application.Contracts.Persistence;
 using HR.LeaveManagement.Application.DTOs.LeaveRequestDto;
 using HR.LeaveManagement.Application.DTOs.LeaveRequestDto.Validators;
 using HR.LeaveManagement.Application.Exceptions;
+using HR.LeaveManagement.Application.Models;
 using HR.LeaveManagement.Application.Responses;
 using HR.LeaveManagement.Domain;
 using Microsoft.AspNetCore.Http;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -23,13 +26,14 @@ namespace HR.LeaveManagement.Application.Services
         private readonly IUserService _userService;
         private readonly IUnitOfWork _unitOfWork;
         private readonly IHttpContextAccessor _httpContextAccessor;
-        
-        public LeaveRequestService(IHttpContextAccessor httpContextAccessor,IUnitOfWork unitOfWork,IMapper mapper, IUserService userService)
+        private readonly IEmailSender _emailSender;
+        public LeaveRequestService(IEmailSender emailSender,IHttpContextAccessor httpContextAccessor,IUnitOfWork unitOfWork,IMapper mapper, IUserService userService)
         {
             _mapper = mapper;
             _unitOfWork = unitOfWork;
             _userService = userService;
             _httpContextAccessor=httpContextAccessor;
+            _emailSender = emailSender;
         }
         public async Task<LeaveRequestDto> GetLeaveRequestDetails(int id)
         {
@@ -110,24 +114,25 @@ namespace HR.LeaveManagement.Application.Services
                 response.Message = "Request Created Successfully";
                 response.Id = leaveRequest.Id;
 
-                //try
-                //{
-                //    var emailAddress = _httpContextAccessor.HttpContext.User.FindFirst(ClaimTypes.Email).Value;
+                try
+                {
+                    var emailAddress = _httpContextAccessor.HttpContext.User.FindFirst(ClaimTypes.Email).Value;
 
-                //    var email = new Email
-                //    {
-                //        To = emailAddress,
-                //        Body = $"Your leave request for {request.LeaveRequestDto.StartDate:D} to {request.LeaveRequestDto.EndDate:D} " +
-                //        $"has been submitted successfully.",
-                //        Subject = "Leave Request Submitted"
-                //    };
+                    var email = new Email
+                    {
+                        To = emailAddress,
+                        Body = $"Your leave request for {dto.StartDate:D} to {dto.EndDate:D} " +
+                        $"has been submitted successfully.",
+                        Subject = "Leave Request Submitted"
+                    };
 
-                //    await _emailSender.SendEmail(email);
-                //}
-                //catch (Exception ex)
-                //{
-                //    //// Log or handle error, but don't throw...
-                //}
+                    await _emailSender.SendEmail(email);
+                }
+                catch (Exception ex)
+                {
+                   
+                    Console.WriteLine($"Sending Email Failed:{ex}");
+                }
             }
             return response;
 

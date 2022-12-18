@@ -4,6 +4,7 @@ using HR.LeaveManagement.Application;
 using HR.LeaveManagement.Application.Contracts;
 using HR.LeaveManagement.Application.Services;
 using HR.LeaveManagement.Identity;
+using HR.LeaveManagement.Infrasructure;
 using HR.LeaveManagement.Persistence;
 using Microsoft.OpenApi.Models;
 
@@ -11,6 +12,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.ConfigureApplicationServices();
+builder.Services.ConfigureInfrastructureServices(builder.Configuration);
 builder.Services.ConfigurePersistenceServices(builder.Configuration);
 builder.Services.ConfigureIdentityServices(builder.Configuration);
 builder.Services.AddHttpContextAccessor();

@@ -10,3 +10,8 @@ C:\Users\Owner\Desktop\Asp.Net.Core_Advanced\HR.LeaveManagementSystem\HR.LeaveMa
 C:\Users\Owner\Desktop\Asp.Net.Core_Advanced\HR.LeaveManagementSystem\HR.LeaveManagement.Infrasructure\obj\Debug\net6.0\HR.LeaveManagement.Infrasructure.dll
 C:\Users\Owner\Desktop\Asp.Net.Core_Advanced\HR.LeaveManagementSystem\HR.LeaveManagement.Infrasructure\obj\Debug\net6.0\ref\HR.LeaveManagement.Infrasructure.dll
 C:\Users\Owner\Desktop\Asp.Net.Core_Advanced\HR.LeaveManagementSystem\HR.LeaveManagement.Infrasructure\obj\Debug\net6.0\HR.LeaveManagement.Infrasructure.pdb
+C:\Users\Owner\Desktop\Asp.Net.Core_Advanced\HR.LeaveManagementSystem\HR.LeaveManagement.Infrasructure\bin\Debug\net6.0\HR.LeaveManagement.Application.dll
+C:\Users\Owner\Desktop\Asp.Net.Core_Advanced\HR.LeaveManagementSystem\HR.LeaveManagement.Infrasructure\bin\Debug\net6.0\HR.LeaveManagement.Domain.dll
+C:\Users\Owner\Desktop\Asp.Net.Core_Advanced\HR.LeaveManagementSystem\HR.LeaveManagement.Infrasructure\bin\Debug\net6.0\HR.LeaveManagement.Application.pdb
+C:\Users\Owner\Desktop\Asp.Net.Core_Advanced\HR.LeaveManagementSystem\HR.LeaveManagement.Infrasructure\bin\Debug\net6.0\HR.LeaveManagement.Domain.pdb
+C:\Users\Owner\Desktop\Asp.Net.Core_Advanced\HR.LeaveManagementSystem\HR.LeaveManagement.Infrasructure\obj\Debug\net6.0\HR.LeaveManagement.Infrasructure.csproj.CopyComplete

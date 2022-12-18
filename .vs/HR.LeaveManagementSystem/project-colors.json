@@ -25,7 +25,22 @@
       "ProjectGuid": "80000b78-dd6a-4f58-9ce2-e66c62181ff9",
       "DisplayName": "HR.LeaveManagement.Persistence",
       "ColorIndex": 4
+    },
+    "194895a8-a61b-41a3-819d-96907cab0dc6": {
+      "ProjectGuid": "194895a8-a61b-41a3-819d-96907cab0dc6",
+      "DisplayName": "HR.LeaveManagement.MVC",
+      "ColorIndex": 5
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "d0bc0da5-a7e4-4eb4-9659-d3a94d682f85": {
+      "ProjectGuid": "d0bc0da5-a7e4-4eb4-9659-d3a94d682f85",
+      "DisplayName": "HR.LeaveManagement.Infrasructure",
+      "ColorIndex": 6
     }
   },
-  "NextColorIndex": 5
+  "NextColorIndex": 7
 }
