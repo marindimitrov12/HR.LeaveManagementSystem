@@ -1,0 +1,96 @@
+﻿@model EmployeeLeaveRequestViewVM
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+<div class="row">
+    <div class="col-md-3">
+        <div class="info-box">
+            <span class="info-box-icon bg-info"><i class="fas fa-tachometer-alt"></i></span>
+
+            <div class="info-box-content">
+                <span class="info-box-text">@Model.LeaveRequests.Count</span>
+                <span class="info-box-number">@Html.DisplayNameFor(model => model.LeaveRequests.Count)</span>
+            </div>
+            <!-- /.info-box-content -->
+        </div>
+        
+    </div>
+   
+  
+        
+    </div>
+    
+        
+  
+
+<br/>
+<br/>
+
+<hr/>
+<h1>Leave Request Log</h1>
+<hr />
+<table id="tblData" class="table">
+    <thead>
+        <tr>
+            <th>
+                Employee Name
+            </th>
+            <th>
+                Start Date
+            </th>
+            <th>
+                End Date
+            </th>
+            <th>
+                Leave Type
+            </th>
+            <th>
+                Date Requested
+            </th>
+            
+            <th>
+               Approval Status
+            </th>
+            
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.LeaveRequests) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Employee.Firstname) @Html.DisplayFor(modelItem => item.Employee.Lastname)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StartDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EndDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LeaveType.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DateRequested)
+            </td>
+            <td>
+               
+                
+                    
+                @Html.ActionLink("Edit", "Edit", new {  id=item.Id }) |
+                @Html.ActionLink("Details", "Details", new {  id=item.Id  }) |
+                
+                <form asp-controller="LeaveRequests" asp-action="Delete" asp-route-id="@item.Id">
+                <input type="submit" value="Delete" />
+                </form>
+               
+                
+            </td>
+            
+        </tr>
+}
+    </tbody>
+</table>

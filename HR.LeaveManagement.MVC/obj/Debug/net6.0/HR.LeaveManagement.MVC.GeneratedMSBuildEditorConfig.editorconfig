@@ -23,6 +23,26 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Owner/Desktop/Asp.Net.Core_Advanced/HR.LeaveManagementSystem/HR.LeaveManagement.MVC/Views/LeaveRequests/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVhdmVSZXF1ZXN0c1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Owner/Desktop/Asp.Net.Core_Advanced/HR.LeaveManagementSystem/HR.LeaveManagement.MVC/Views/LeaveRequests/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVhdmVSZXF1ZXN0c1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Owner/Desktop/Asp.Net.Core_Advanced/HR.LeaveManagementSystem/HR.LeaveManagement.MVC/Views/LeaveRequests/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVhdmVSZXF1ZXN0c1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Owner/Desktop/Asp.Net.Core_Advanced/HR.LeaveManagementSystem/HR.LeaveManagement.MVC/Views/LeaveRequests/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVhdmVSZXF1ZXN0c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Owner/Desktop/Asp.Net.Core_Advanced/HR.LeaveManagementSystem/HR.LeaveManagement.MVC/Views/LeaveRequests/IndexUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVhdmVSZXF1ZXN0c1xJbmRleFVzZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Owner/Desktop/Asp.Net.Core_Advanced/HR.LeaveManagementSystem/HR.LeaveManagement.MVC/Views/LeaveTypes/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVhdmVUeXBlc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

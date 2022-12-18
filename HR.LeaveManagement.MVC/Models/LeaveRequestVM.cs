@@ -14,10 +14,10 @@ namespace HR.LeaveManagement.MVC.Models
             public DateTime DateActioned { get; set; }
 
             [Display(Name = "Approval State")]
-            public bool? Approved { get; set; }
+            public bool Approved { get; set; }
 
             public bool Cancelled { get; set; }
-            public LeaveTypeVM LeaveType { get; set; }
+            public LeaveTypeVM? LeaveType { get; set; }
             public EmployeeVM Employee { get; set; }
 
         }
@@ -33,7 +33,7 @@ namespace HR.LeaveManagement.MVC.Models
             [Required]
             public DateTime EndDate { get; set; }
 
-            public Microsoft.AspNetCore.Mvc.Rendering.SelectList LeaveTypes { get; set; }
+            public Microsoft.AspNetCore.Mvc.Rendering.SelectList? LeaveTypes { get; set; }
 
             [Display(Name = "Leave Type")]
             [Required]

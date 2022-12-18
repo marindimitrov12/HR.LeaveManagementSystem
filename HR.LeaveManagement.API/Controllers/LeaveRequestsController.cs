@@ -40,6 +40,7 @@ namespace HR.LeaveManagement.API.Controllers
         }
         // PUT api/<LeaveRequestsController>/5
         [HttpPut("{id}")]
+        [ProducesResponseType(204)]
         public async Task<ActionResult> Put(int id, [FromBody] UpdateLeaveRequestDto leaveRequest)
         {
 
@@ -52,6 +53,14 @@ namespace HR.LeaveManagement.API.Controllers
         {
            
             await _service.UpdateLeaveRequest(null, changeLeaveRequestApproval,id);
+            return NoContent();
+        }
+        [HttpDelete]
+        [ProducesResponseType(204)]
+        public async Task<ActionResult> Delete(int id)
+        {
+
+            await _service.DeleteLeaveRequest(id);
             return NoContent();
         }
     }

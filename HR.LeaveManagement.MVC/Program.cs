@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Authentication.Cookies;
 using System.Reflection;
 using System.Net.Http;
 
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add builder.Services to the container.
@@ -28,7 +29,7 @@ builder.Services.AddAutoMapper(Assembly.GetExecutingAssembly());
 
 builder.Services.AddScoped<ILeaveTypeService, LeaveTypeService>();
 builder.Services.AddScoped<ILeaveAllocationService, LeaveAllocationService>();
-//builder.Services.AddScoped<ILeaveRequestService, LeaveRequestService>();
+builder.Services.AddScoped<ILeaveRequestService, LeaveRequestService>();
 
 builder.Services.AddSingleton<ILocalStorageService, LocalStorageService>();
 builder.Services.AddControllersWithViews();

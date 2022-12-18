@@ -45,9 +45,8 @@ namespace HR.LeaveManagement.Application.Services
 
             if (IsLoggedInUser)
             {
-                var userId = _httpContextAccessor.HttpContext.User.Identity.Name;
-                    //.Claims.FirstOrDefault(
-                    //q => q.Type == CustomClaimTypes.Uid)?.Value;
+                var userId = _httpContextAccessor.HttpContext.User.FindFirst(
+                   q => q.Type == CustomClaimTypes.Uid)?.Value;
                 leaveRequests = await _unitOfWork.LeaveRequestRepository.GetLeaveRequestsWithDetails(userId);
 
                 var employee = await _userService.GetEmployee(userId);
