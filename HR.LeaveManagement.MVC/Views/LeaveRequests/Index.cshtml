@@ -107,22 +107,20 @@
                 @Html.DisplayFor(modelItem => item.DateRequested)
             </td>
             <td>
-                @if (item.Cancelled)
-                {
-                    <span class="badge badge-secondary">Cancelled</span>
-                }
-                else if (item.Approved == true)
-                {
-                    <span class="badge badge-success">Approved</span>
-                }
-                else if (item.Approved == false)
-                {
-                    <span class="badge badge-danger">Rejected</span>
-                }
-                else
-                {
-                    <span class="badge badge-warning">Pending Approval</span>
-                }
+                    @if (item.Approved == false)
+                    {
+                        <span >Rejected</span>
+                    }
+                    else if(item.Approved == true)
+                    {
+                        <span >Approved</span>
+                    }
+                    else
+                    {
+                        <span >Pending Approval</span>
+                    }
+
+                
             </td>
             <td>
                 @if (!item.Cancelled)

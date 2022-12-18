@@ -55,12 +55,8 @@
         <dd class="col-sm-10">
             @Html.DisplayFor(model => model.LeaveType.Name)
         </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.RequestComments)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.RequestComments)
-        </dd>
+        
+       
     </dl>
 </div>
 <div>
@@ -77,7 +73,7 @@
             <input name="id" type="hidden" value="@Model.Id" />
             <input name="approved" type="hidden" value="false" />
             <button class="btn btn-danger">
-                Edit
+                Reject
             </button>
         </form>
          <a class="btn btn-outline-secondary" asp-action="Index">
