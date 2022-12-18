@@ -51,5 +51,7 @@ namespace HR.LeaveManagement.API.Controllers
             await _service.DeleteAllocation(id);
             return NoContent();
         }
+
+
     }
 }

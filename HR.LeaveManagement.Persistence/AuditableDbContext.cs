@@ -14,12 +14,9 @@ namespace HR.LeaveManagement.Persistence
         {
         }
 
-        public virtual async Task<int> SaveChangesAsync(string username = "Marin")
+        public virtual async Task<int> SaveChangesAsync(string username = "SYSTEM")
         {
-            if (username == null)
-            {
-                username = "SYSTEM";
-            }
+            
             foreach (var entry in base.ChangeTracker.Entries<BaseDomainEntity>()
                 .Where(q => q.State == EntityState.Added || q.State == EntityState.Modified))
             {
