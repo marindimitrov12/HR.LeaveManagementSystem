@@ -1,10 +1,8 @@
 # HR.LeaveManagementSystem
 
-Build A Strong Foundation in .NET 6 Clean Architecture:
+Implementing Solid
 
-Implimenting Solid
-
-Learn Clean or Onion Architecture and Best Practices
+Implementing Clean or Onion Architecture and Best Practices
 
 Add Email Service using SendGrid
 
