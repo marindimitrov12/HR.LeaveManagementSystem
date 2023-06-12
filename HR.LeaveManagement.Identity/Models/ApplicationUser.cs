@@ -8,5 +8,11 @@ namespace HR.LeaveManagement.Identity.Models
     {
         public string FirstName { get; set; }
         public string LastName { get; set; }
+
+        public string?  JobTitle { get; set; }
+
+        public int? WorkExperience { get; set; }
+
+        public double? Salary { get; set; }
     }
 }

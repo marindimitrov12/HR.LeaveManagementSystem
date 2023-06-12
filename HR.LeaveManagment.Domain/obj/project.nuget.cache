@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ifgem2/c0dkosZlKE408x8p8YlVrPEunDQgF+TZa102pq4qk3MgXXDRaLL38wdFlU4lA5fp39wdgCeaVL+pLAg==",
+  "dgSpecHash": "oeVN/8AgMlaNzgCmPX9AtjlWDTwYP1DV5zdvagrTf0jE8vVRgzB9IbQM8vQkdJhCMmDpu5wO3nB1pgSm2uR2Mg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Owner\\Desktop\\Asp.Net.Core_Advanced\\HR.LeaveManagementSystem\\HR.LeaveManagment.Domain\\HR.LeaveManagement.Domain.csproj",
+  "projectFilePath": "/Users/marindimitrov/RiderProjects/HR.LeaveManagementSystem/HR.LeaveManagment.Domain/HR.LeaveManagement.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

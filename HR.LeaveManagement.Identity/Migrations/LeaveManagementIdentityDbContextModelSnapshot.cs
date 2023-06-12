@@ -45,6 +45,9 @@ namespace HR.LeaveManagement.Identity.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("JobTitle")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("LastName")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -72,6 +75,9 @@ namespace HR.LeaveManagement.Identity.Migrations
                     b.Property<bool>("PhoneNumberConfirmed")
                         .HasColumnType("bit");
 
+                    b.Property<double?>("Salary")
+                        .HasColumnType("float");
+
                     b.Property<string>("SecurityStamp")
                         .HasColumnType("nvarchar(max)");
 
@@ -81,6 +87,9 @@ namespace HR.LeaveManagement.Identity.Migrations
                     b.Property<string>("UserName")
                         .HasMaxLength(256)
                         .HasColumnType("nvarchar(256)");
+
+                    b.Property<int?>("WorkExperience")
+                        .HasColumnType("int");
 
                     b.HasKey("Id");
 
@@ -99,7 +108,7 @@ namespace HR.LeaveManagement.Identity.Migrations
                         {
                             Id = "8e445865-a24d-4543-a6c6-9443d048cdb9",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "3ffa7494-15eb-44b1-ad58-dddd19eb6ac2",
+                            ConcurrencyStamp = "bda2d03d-29ac-45d4-b1b2-da5b8731337b",
                             Email = "manager@localhost.com",
                             EmailConfirmed = true,
                             FirstName = "System",
@@ -107,9 +116,9 @@ namespace HR.LeaveManagement.Identity.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "MANAGER@LOCALHOST.COM",
                             NormalizedUserName = "MANAGER@LOCALHOST.COM",
-                            PasswordHash = "AQAAAAEAACcQAAAAEDblbVzk7rRABNzyXBToVDzn/V95BjgR8qgSC3lQJPaowThoyZxP0Or1QZEdSheCsw==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEI1ty6RY/32Hl1o0YzDQNUy54idEwLOUaap/GjPfPAL7oBLFqpTY5lGYwMk6+pyBnw==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "2bc82547-6347-4503-9426-a9caf40c7e05",
+                            SecurityStamp = "93448e93-c4b5-4df7-9d21-f41e696abbbf",
                             TwoFactorEnabled = false,
                             UserName = "manager@localhost.com"
                         },
@@ -117,7 +126,7 @@ namespace HR.LeaveManagement.Identity.Migrations
                         {
                             Id = "9e224968-33e4-4652-b7b7-8574d048cdb9",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "7eb1e4f8-467d-4fa2-b047-d73d44d4361f",
+                            ConcurrencyStamp = "004f3e30-c752-412a-b289-17267c45cbe8",
                             Email = "user@localhost.com",
                             EmailConfirmed = true,
                             FirstName = "System",
@@ -125,9 +134,9 @@ namespace HR.LeaveManagement.Identity.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "USER@LOCALHOST.COM",
                             NormalizedUserName = "USER@LOCALHOST.COM",
-                            PasswordHash = "AQAAAAEAACcQAAAAEJ64XBCUe5EByzbMb4qXiI/1yrJxELo9ydyL5ZtG+niRUvBPUzJ8mqoRNZIF2/Cq2g==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEKBiXepPmyKu3R19IljO16IzpMalw9/uCxf6c6jUOGhx5EqV9ySiytZ3XFRShftpRw==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "04b3a598-9ef1-4f9e-a1d1-d699ed23e171",
+                            SecurityStamp = "25ea6d6c-de1f-4e1c-996e-73e03d99491e",
                             TwoFactorEnabled = false,
                             UserName = "user@localhost.com"
                         });
@@ -163,14 +172,14 @@ namespace HR.LeaveManagement.Identity.Migrations
                         new
                         {
                             Id = "cac43a6e-f7bb-4448-baaf-1add431ccbbf",
-                            ConcurrencyStamp = "d05d82be-b068-410c-b484-568c02f2a983",
+                            ConcurrencyStamp = "dc028631-e0f8-41f3-98be-f20610bd8c1a",
                             Name = "Employee",
                             NormalizedName = "EMPLOYEE"
                         },
                         new
                         {
                             Id = "cbc43a8e-f7bb-4445-baaf-1add431ffbbf",
-                            ConcurrencyStamp = "2b4b1d33-317b-413d-a6f1-1cc57b4dd317",
+                            ConcurrencyStamp = "a6463382-da76-45bf-9756-8bb3ec068d2b",
                             Name = "Manager",
                             NormalizedName = "MANAGER"
                         });

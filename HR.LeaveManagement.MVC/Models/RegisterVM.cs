@@ -11,6 +11,15 @@ namespace HR.LeaveManagement.MVC.Models
         public string LastName { get; set; }
 
         [Required]
+        public int Salary { get; set; }
+
+        [Required]
+        public int WorkExperience { get; set; }
+
+        [Required] 
+        public string JobTitle { get; set; }
+        
+        [Required]
         [EmailAddress]
         public string Email { get; set; }
 

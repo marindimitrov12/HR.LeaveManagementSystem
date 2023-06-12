@@ -1,44 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Owner\\Desktop\\Asp.Net.Core_Advanced\\HR.LeaveManagementSystem\\Hr.LeaveManagement.MVC.UnitTest\\Hr.LeaveManagement.MVC.UnitTest.csproj": {}
+    "/Users/marindimitrov/RiderProjects/HR.LeaveManagementSystem/Hr.LeaveManagement.MVC.UnitTest/Hr.LeaveManagement.MVC.UnitTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Owner\\Desktop\\Asp.Net.Core_Advanced\\HR.LeaveManagementSystem\\HR.LeaveManagement.Application\\HR.LeaveManagement.Application.csproj": {
+    "/Users/marindimitrov/RiderProjects/HR.LeaveManagementSystem/HR.LeaveManagement.Application/HR.LeaveManagement.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Owner\\Desktop\\Asp.Net.Core_Advanced\\HR.LeaveManagementSystem\\HR.LeaveManagement.Application\\HR.LeaveManagement.Application.csproj",
+        "projectUniqueName": "/Users/marindimitrov/RiderProjects/HR.LeaveManagementSystem/HR.LeaveManagement.Application/HR.LeaveManagement.Application.csproj",
         "projectName": "HR.LeaveManagement.Application",
-        "projectPath": "C:\\Users\\Owner\\Desktop\\Asp.Net.Core_Advanced\\HR.LeaveManagementSystem\\HR.LeaveManagement.Application\\HR.LeaveManagement.Application.csproj",
-        "packagesPath": "C:\\Users\\Owner\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Owner\\Desktop\\Asp.Net.Core_Advanced\\HR.LeaveManagementSystem\\HR.LeaveManagement.Application\\obj\\",
+        "projectPath": "/Users/marindimitrov/RiderProjects/HR.LeaveManagementSystem/HR.LeaveManagement.Application/HR.LeaveManagement.Application.csproj",
+        "packagesPath": "/Users/marindimitrov/.nuget/packages/",
+        "outputPath": "/Users/marindimitrov/RiderProjects/HR.LeaveManagementSystem/HR.LeaveManagement.Application/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Progress\\ToolboxNuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Owner\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Telerik UI for WinForms.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "/Users/marindimitrov/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.telerik.com/nuget": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Owner\\Desktop\\Asp.Net.Core_Advanced\\HR.LeaveManagementSystem\\HR.LeaveManagment.Domain\\HR.LeaveManagement.Domain.csproj": {
-                "projectPath": "C:\\Users\\Owner\\Desktop\\Asp.Net.Core_Advanced\\HR.LeaveManagementSystem\\HR.LeaveManagment.Domain\\HR.LeaveManagement.Domain.csproj"
+              "/Users/marindimitrov/RiderProjects/HR.LeaveManagementSystem/HR.LeaveManagment.Domain/HR.LeaveManagement.Domain.csproj": {
+                "projectPath": "/Users/marindimitrov/RiderProjects/HR.LeaveManagementSystem/HR.LeaveManagment.Domain/HR.LeaveManagement.Domain.csproj"
               }
             }
           }
@@ -76,7 +65,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -85,48 +75,37 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.202/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Owner\\Desktop\\Asp.Net.Core_Advanced\\HR.LeaveManagementSystem\\Hr.LeaveManagement.MVC.UnitTest\\Hr.LeaveManagement.MVC.UnitTest.csproj": {
+    "/Users/marindimitrov/RiderProjects/HR.LeaveManagementSystem/Hr.LeaveManagement.MVC.UnitTest/Hr.LeaveManagement.MVC.UnitTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Owner\\Desktop\\Asp.Net.Core_Advanced\\HR.LeaveManagementSystem\\Hr.LeaveManagement.MVC.UnitTest\\Hr.LeaveManagement.MVC.UnitTest.csproj",
+        "projectUniqueName": "/Users/marindimitrov/RiderProjects/HR.LeaveManagementSystem/Hr.LeaveManagement.MVC.UnitTest/Hr.LeaveManagement.MVC.UnitTest.csproj",
         "projectName": "Hr.LeaveManagement.MVC.UnitTest",
-        "projectPath": "C:\\Users\\Owner\\Desktop\\Asp.Net.Core_Advanced\\HR.LeaveManagementSystem\\Hr.LeaveManagement.MVC.UnitTest\\Hr.LeaveManagement.MVC.UnitTest.csproj",
-        "packagesPath": "C:\\Users\\Owner\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Owner\\Desktop\\Asp.Net.Core_Advanced\\HR.LeaveManagementSystem\\Hr.LeaveManagement.MVC.UnitTest\\obj\\",
+        "projectPath": "/Users/marindimitrov/RiderProjects/HR.LeaveManagementSystem/Hr.LeaveManagement.MVC.UnitTest/Hr.LeaveManagement.MVC.UnitTest.csproj",
+        "packagesPath": "/Users/marindimitrov/.nuget/packages/",
+        "outputPath": "/Users/marindimitrov/RiderProjects/HR.LeaveManagementSystem/Hr.LeaveManagement.MVC.UnitTest/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Progress\\ToolboxNuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Owner\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Telerik UI for WinForms.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "/Users/marindimitrov/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.telerik.com/nuget": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Owner\\Desktop\\Asp.Net.Core_Advanced\\HR.LeaveManagementSystem\\HR.LeaveManagement.Application\\HR.LeaveManagement.Application.csproj": {
-                "projectPath": "C:\\Users\\Owner\\Desktop\\Asp.Net.Core_Advanced\\HR.LeaveManagementSystem\\HR.LeaveManagement.Application\\HR.LeaveManagement.Application.csproj"
+              "/Users/marindimitrov/RiderProjects/HR.LeaveManagementSystem/HR.LeaveManagement.Application/HR.LeaveManagement.Application.csproj": {
+                "projectPath": "/Users/marindimitrov/RiderProjects/HR.LeaveManagementSystem/HR.LeaveManagement.Application/HR.LeaveManagement.Application.csproj"
               },
-              "C:\\Users\\Owner\\Desktop\\Asp.Net.Core_Advanced\\HR.LeaveManagementSystem\\HR.LeaveManagement.MVC\\HR.LeaveManagement.MVC.csproj": {
-                "projectPath": "C:\\Users\\Owner\\Desktop\\Asp.Net.Core_Advanced\\HR.LeaveManagementSystem\\HR.LeaveManagement.MVC\\HR.LeaveManagement.MVC.csproj"
+              "/Users/marindimitrov/RiderProjects/HR.LeaveManagementSystem/HR.LeaveManagement.MVC/HR.LeaveManagement.MVC.csproj": {
+                "projectPath": "/Users/marindimitrov/RiderProjects/HR.LeaveManagementSystem/HR.LeaveManagement.MVC/HR.LeaveManagement.MVC.csproj"
               }
             }
           }
@@ -172,7 +151,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -181,38 +161,27 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.202/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Owner\\Desktop\\Asp.Net.Core_Advanced\\HR.LeaveManagementSystem\\HR.LeaveManagement.MVC\\HR.LeaveManagement.MVC.csproj": {
+    "/Users/marindimitrov/RiderProjects/HR.LeaveManagementSystem/HR.LeaveManagement.MVC/HR.LeaveManagement.MVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Owner\\Desktop\\Asp.Net.Core_Advanced\\HR.LeaveManagementSystem\\HR.LeaveManagement.MVC\\HR.LeaveManagement.MVC.csproj",
+        "projectUniqueName": "/Users/marindimitrov/RiderProjects/HR.LeaveManagementSystem/HR.LeaveManagement.MVC/HR.LeaveManagement.MVC.csproj",
         "projectName": "HR.LeaveManagement.MVC",
-        "projectPath": "C:\\Users\\Owner\\Desktop\\Asp.Net.Core_Advanced\\HR.LeaveManagementSystem\\HR.LeaveManagement.MVC\\HR.LeaveManagement.MVC.csproj",
-        "packagesPath": "C:\\Users\\Owner\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Owner\\Desktop\\Asp.Net.Core_Advanced\\HR.LeaveManagementSystem\\HR.LeaveManagement.MVC\\obj\\",
+        "projectPath": "/Users/marindimitrov/RiderProjects/HR.LeaveManagementSystem/HR.LeaveManagement.MVC/HR.LeaveManagement.MVC.csproj",
+        "packagesPath": "/Users/marindimitrov/.nuget/packages/",
+        "outputPath": "/Users/marindimitrov/RiderProjects/HR.LeaveManagementSystem/HR.LeaveManagement.MVC/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Progress\\ToolboxNuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Owner\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Telerik UI for WinForms.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "/Users/marindimitrov/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.telerik.com/nuget": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
@@ -261,7 +230,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -273,38 +243,27 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.202/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Owner\\Desktop\\Asp.Net.Core_Advanced\\HR.LeaveManagementSystem\\HR.LeaveManagment.Domain\\HR.LeaveManagement.Domain.csproj": {
+    "/Users/marindimitrov/RiderProjects/HR.LeaveManagementSystem/HR.LeaveManagment.Domain/HR.LeaveManagement.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Owner\\Desktop\\Asp.Net.Core_Advanced\\HR.LeaveManagementSystem\\HR.LeaveManagment.Domain\\HR.LeaveManagement.Domain.csproj",
+        "projectUniqueName": "/Users/marindimitrov/RiderProjects/HR.LeaveManagementSystem/HR.LeaveManagment.Domain/HR.LeaveManagement.Domain.csproj",
         "projectName": "HR.LeaveManagement.Domain",
-        "projectPath": "C:\\Users\\Owner\\Desktop\\Asp.Net.Core_Advanced\\HR.LeaveManagementSystem\\HR.LeaveManagment.Domain\\HR.LeaveManagement.Domain.csproj",
-        "packagesPath": "C:\\Users\\Owner\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Owner\\Desktop\\Asp.Net.Core_Advanced\\HR.LeaveManagementSystem\\HR.LeaveManagment.Domain\\obj\\",
+        "projectPath": "/Users/marindimitrov/RiderProjects/HR.LeaveManagementSystem/HR.LeaveManagment.Domain/HR.LeaveManagement.Domain.csproj",
+        "packagesPath": "/Users/marindimitrov/.nuget/packages/",
+        "outputPath": "/Users/marindimitrov/RiderProjects/HR.LeaveManagementSystem/HR.LeaveManagment.Domain/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Progress\\ToolboxNuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Owner\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Telerik UI for WinForms.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "/Users/marindimitrov/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.telerik.com/nuget": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
@@ -327,7 +286,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -336,7 +296,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.202/RuntimeIdentifierGraph.json"
         }
       }
     }

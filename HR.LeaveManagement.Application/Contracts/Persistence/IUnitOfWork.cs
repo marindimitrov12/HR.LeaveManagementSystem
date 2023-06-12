@@ -11,6 +11,8 @@ namespace HR.LeaveManagement.Application.Contracts.Persistence
         ILeaveAllocationRepository LeaveAllocationRepository { get; }
         ILeaveRequestRepository LeaveRequestRepository { get; }
         ILeaveTypeRepository LeaveTypeRepository { get; }
+        
+        
         Task Save();
     }
 }

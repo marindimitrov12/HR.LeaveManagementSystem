@@ -5,88 +5,93 @@ build_property.UsingMicrosoftNETSdkWeb = true
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = HR.LeaveManagement.MVC
 build_property.RootNamespace = HR.LeaveManagement.MVC
-build_property.ProjectDir = C:\Users\Owner\Desktop\Asp.Net.Core_Advanced\HR.LeaveManagementSystem\HR.LeaveManagement.MVC\
+build_property.ProjectDir = /Users/marindimitrov/RiderProjects/HR.LeaveManagementSystem/HR.LeaveManagement.MVC/
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Owner\Desktop\Asp.Net.Core_Advanced\HR.LeaveManagementSystem\HR.LeaveManagement.MVC
+build_property.MSBuildProjectDirectory = /Users/marindimitrov/RiderProjects/HR.LeaveManagementSystem/HR.LeaveManagement.MVC
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Owner/Desktop/Asp.Net.Core_Advanced/HR.LeaveManagementSystem/HR.LeaveManagement.MVC/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+[/Users/marindimitrov/RiderProjects/HR.LeaveManagementSystem/HR.LeaveManagement.MVC/Views/EmployesInfo/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRW1wbG95ZXNJbmZvL0luZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Owner/Desktop/Asp.Net.Core_Advanced/HR.LeaveManagementSystem/HR.LeaveManagement.MVC/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+[/Users/marindimitrov/RiderProjects/HR.LeaveManagementSystem/HR.LeaveManagement.MVC/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Owner/Desktop/Asp.Net.Core_Advanced/HR.LeaveManagementSystem/HR.LeaveManagement.MVC/Views/LeaveRequests/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVhdmVSZXF1ZXN0c1xDcmVhdGUuY3NodG1s
+[/Users/marindimitrov/RiderProjects/HR.LeaveManagementSystem/HR.LeaveManagement.MVC/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Owner/Desktop/Asp.Net.Core_Advanced/HR.LeaveManagementSystem/HR.LeaveManagement.MVC/Views/LeaveRequests/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVhdmVSZXF1ZXN0c1xEZXRhaWxzLmNzaHRtbA==
+[/Users/marindimitrov/RiderProjects/HR.LeaveManagementSystem/HR.LeaveManagement.MVC/Views/LeaveRequests/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGVhdmVSZXF1ZXN0cy9DcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Owner/Desktop/Asp.Net.Core_Advanced/HR.LeaveManagementSystem/HR.LeaveManagement.MVC/Views/LeaveRequests/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVhdmVSZXF1ZXN0c1xFZGl0LmNzaHRtbA==
+[/Users/marindimitrov/RiderProjects/HR.LeaveManagementSystem/HR.LeaveManagement.MVC/Views/LeaveRequests/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGVhdmVSZXF1ZXN0cy9EZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Owner/Desktop/Asp.Net.Core_Advanced/HR.LeaveManagementSystem/HR.LeaveManagement.MVC/Views/LeaveRequests/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVhdmVSZXF1ZXN0c1xJbmRleC5jc2h0bWw=
+[/Users/marindimitrov/RiderProjects/HR.LeaveManagementSystem/HR.LeaveManagement.MVC/Views/LeaveRequests/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGVhdmVSZXF1ZXN0cy9FZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Owner/Desktop/Asp.Net.Core_Advanced/HR.LeaveManagementSystem/HR.LeaveManagement.MVC/Views/LeaveRequests/IndexUser.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVhdmVSZXF1ZXN0c1xJbmRleFVzZXIuY3NodG1s
+[/Users/marindimitrov/RiderProjects/HR.LeaveManagementSystem/HR.LeaveManagement.MVC/Views/LeaveRequests/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGVhdmVSZXF1ZXN0cy9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Owner/Desktop/Asp.Net.Core_Advanced/HR.LeaveManagementSystem/HR.LeaveManagement.MVC/Views/LeaveTypes/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVhdmVUeXBlc1xDcmVhdGUuY3NodG1s
+[/Users/marindimitrov/RiderProjects/HR.LeaveManagementSystem/HR.LeaveManagement.MVC/Views/LeaveRequests/IndexUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGVhdmVSZXF1ZXN0cy9JbmRleFVzZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Owner/Desktop/Asp.Net.Core_Advanced/HR.LeaveManagementSystem/HR.LeaveManagement.MVC/Views/LeaveTypes/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVhdmVUeXBlc1xEZXRhaWxzLmNzaHRtbA==
+[/Users/marindimitrov/RiderProjects/HR.LeaveManagementSystem/HR.LeaveManagement.MVC/Views/LeaveTypes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGVhdmVUeXBlcy9DcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Owner/Desktop/Asp.Net.Core_Advanced/HR.LeaveManagementSystem/HR.LeaveManagement.MVC/Views/LeaveTypes/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVhdmVUeXBlc1xFZGl0LmNzaHRtbA==
+[/Users/marindimitrov/RiderProjects/HR.LeaveManagementSystem/HR.LeaveManagement.MVC/Views/LeaveTypes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGVhdmVUeXBlcy9EZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Owner/Desktop/Asp.Net.Core_Advanced/HR.LeaveManagementSystem/HR.LeaveManagement.MVC/Views/LeaveTypes/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVhdmVUeXBlc1xJbmRleC5jc2h0bWw=
+[/Users/marindimitrov/RiderProjects/HR.LeaveManagementSystem/HR.LeaveManagement.MVC/Views/LeaveTypes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGVhdmVUeXBlcy9FZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Owner/Desktop/Asp.Net.Core_Advanced/HR.LeaveManagementSystem/HR.LeaveManagement.MVC/Views/Shared/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+[/Users/marindimitrov/RiderProjects/HR.LeaveManagementSystem/HR.LeaveManagement.MVC/Views/LeaveTypes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGVhdmVUeXBlcy9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Owner/Desktop/Asp.Net.Core_Advanced/HR.LeaveManagementSystem/HR.LeaveManagement.MVC/Views/Shared/_LoginPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+[/Users/marindimitrov/RiderProjects/HR.LeaveManagementSystem/HR.LeaveManagement.MVC/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Owner/Desktop/Asp.Net.Core_Advanced/HR.LeaveManagementSystem/HR.LeaveManagement.MVC/Views/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+[/Users/marindimitrov/RiderProjects/HR.LeaveManagementSystem/HR.LeaveManagement.MVC/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Owner/Desktop/Asp.Net.Core_Advanced/HR.LeaveManagementSystem/HR.LeaveManagement.MVC/Views/Users/Login.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcTG9naW4uY3NodG1s
+[/Users/marindimitrov/RiderProjects/HR.LeaveManagementSystem/HR.LeaveManagement.MVC/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Owner/Desktop/Asp.Net.Core_Advanced/HR.LeaveManagementSystem/HR.LeaveManagement.MVC/Views/Users/Register.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcUmVnaXN0ZXIuY3NodG1s
+[/Users/marindimitrov/RiderProjects/HR.LeaveManagementSystem/HR.LeaveManagement.MVC/Views/Users/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlcnMvTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Owner/Desktop/Asp.Net.Core_Advanced/HR.LeaveManagementSystem/HR.LeaveManagement.MVC/Views/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+[/Users/marindimitrov/RiderProjects/HR.LeaveManagementSystem/HR.LeaveManagement.MVC/Views/Users/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlcnMvUmVnaXN0ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Owner/Desktop/Asp.Net.Core_Advanced/HR.LeaveManagementSystem/HR.LeaveManagement.MVC/Views/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+[/Users/marindimitrov/RiderProjects/HR.LeaveManagementSystem/HR.LeaveManagement.MVC/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Owner/Desktop/Asp.Net.Core_Advanced/HR.LeaveManagementSystem/HR.LeaveManagement.MVC/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-glvwa335wm
+[/Users/marindimitrov/RiderProjects/HR.LeaveManagementSystem/HR.LeaveManagement.MVC/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/marindimitrov/RiderProjects/HR.LeaveManagementSystem/HR.LeaveManagement.MVC/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-4g9jnc1a2v

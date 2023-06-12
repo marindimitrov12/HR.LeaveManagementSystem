@@ -67,6 +67,9 @@ namespace HR.LeaveManagement.Identity.Services
                 LastName = request.LastName,
                 UserName = request.UserName,
                 EmailConfirmed = true,
+                JobTitle = request.JobTitle,
+                Salary = request.Salary,
+                WorkExperience = request.WorkExperience,
             };
 
             var existingEmail = await _userManager.FindByEmailAsync(request.Email);

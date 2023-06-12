@@ -26,6 +26,7 @@ namespace HR.LeaveManagement.Identity.Configurations
                      UserName = "manager@localhost.com",
                      NormalizedUserName = "MANAGER@LOCALHOST.COM",
                      PasswordHash = hasher.HashPassword(null, "Manager1"),
+                     
                      EmailConfirmed = true
                  },
                  new ApplicationUser
@@ -35,6 +36,9 @@ namespace HR.LeaveManagement.Identity.Configurations
                      NormalizedEmail = "USER@LOCALHOST.COM",
                      FirstName = "System",
                      LastName = "User",
+                     JobTitle="Developer",
+                     Salary = 2000,
+                     WorkExperience=2,
                      UserName = "user@localhost.com",
                      NormalizedUserName = "USER@LOCALHOST.COM",
                      PasswordHash = hasher.HashPassword(null, "User1"),

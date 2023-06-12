@@ -30,7 +30,7 @@ builder.Services.AddAutoMapper(Assembly.GetExecutingAssembly());
 builder.Services.AddScoped<ILeaveTypeService, LeaveTypeService>();
 builder.Services.AddScoped<ILeaveAllocationService, LeaveAllocationService>();
 builder.Services.AddScoped<ILeaveRequestService, LeaveRequestService>();
-
+builder.Services.AddScoped<IEmployesInfoService, EmployesInfoService>();
 builder.Services.AddSingleton<ILocalStorageService, LocalStorageService>();
 builder.Services.AddControllersWithViews();
 

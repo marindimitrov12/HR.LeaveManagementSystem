@@ -2,10 +2,12 @@
 
 using HR.LeaveManagement.Application;
 using HR.LeaveManagement.Application.Contracts;
+using HR.LeaveManagement.Application.Contracts.Persistence;
 using HR.LeaveManagement.Application.Services;
 using HR.LeaveManagement.Identity;
 using HR.LeaveManagement.Infrasructure;
 using HR.LeaveManagement.Persistence;
+using HR.LeaveManagement.Persistence.Repositories;
 using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -19,8 +21,11 @@ builder.Services.AddHttpContextAccessor();
 AddSwaggerDoc(builder.Services);
 builder.Services.AddControllers();
 //TODO:Extract this services registration in separate class
+builder.Services.AddTransient<IEmployeeRepository, EmployeeRepository>();
+builder.Services.AddTransient<IEmployesService,EmployesService>();
 builder.Services.AddTransient<ILeaveAllocationService,LeaveAllocationService>();
 builder.Services.AddTransient<ILeaveTypesService, LeaveTypesService>();
+
 builder.Services.AddTransient<ILeaveRequestService, LeaveRequestService>();
 builder.Services.AddAuthentication(Microsoft.AspNetCore.Server.IISIntegration.IISDefaults.AuthenticationScheme);
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
