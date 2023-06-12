@@ -1,0 +1,57 @@
+@model List<EmployeeVM>
+@{  
+    ViewBag.Title = "Index";  
+}
+<h1>Employes Info</h1>
+  <table id="tblData" class="table">
+      <thead>
+          <tr>
+              <th>
+                Employee Name
+              </th>
+           
+              <th>
+                  WorkExperiance
+              </th>
+              <th>
+                  Email
+              </th>
+              <th>
+                  JobTitle
+              </th>
+              
+              <th>
+                  Salary
+              </th>
+              
+              <th></th>
+          </tr>
+      </thead>
+      <tbody>
+@foreach (var item in Model)
+{
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Firstname) @Html.DisplayFor(modelItem => item.Lastname)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.WorkExperience)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Email)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.JobTitle)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Salary)
+        </td>
+        
+    </tr>
+}
+      </tbody>
+  </table>
+  
+
+
+

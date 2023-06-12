@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../buildMultiTargeting/HR.LeaveManagement.MVC.props" />
+</Project>
