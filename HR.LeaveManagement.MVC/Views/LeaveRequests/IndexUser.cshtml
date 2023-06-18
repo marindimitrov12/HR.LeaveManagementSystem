@@ -12,8 +12,8 @@
 
             <div class="info-box-content">
                 <span class="info-box-text">@Model.LeaveRequests.Count</span>
-                <span class="info-box-number">@Html.DisplayNameFor(model => model.LeaveRequests.Count)</span>
-            </div>
+                 <span class="info-box-number">@Html.DisplayNameFor(model => model.LeaveRequests)</span>
+                           </div>
             <!-- /.info-box-content -->
         </div>
         
@@ -22,9 +22,6 @@
   
         
     </div>
-    
-        
-  
 
 <br/>
 <br/>
@@ -79,15 +76,39 @@
             <td>
                
                 
-                    
-                @Html.ActionLink("Edit", "Edit", new {  id=item.Id }) |
-                @Html.ActionLink("Details", "Details", new {  id=item.Id  }) |
-                
-                <form asp-controller="LeaveRequests" asp-action="Delete" asp-route-id="@item.Id">
-                <input type="submit" value="Delete" />
-                </form>
+                @if (item.Approved == false)
+                {
+                    <span >Rejected</span>
+                }
+                else if(item.Approved == true)
+                {
+                    <span >Approved</span>
+                }
+                else
+                {
+                    <span >Pending Approval</span>
+                }
+              
                
                 
+            </td>
+            <td>
+                  @Html.ActionLink("Details", "Details", new { id = item.Id }) 
+                @if (item.Approved != false && item.Approved != true)
+                {
+
+                    @Html.ActionLink("Edit", "Edit", new { id = item.Id })
+
+                    <form asp-controller="LeaveRequests" asp-action="Delete" asp-route-id="@item.Id">
+                        <input type="submit" value="Delete"/>
+                    </form>
+
+                }
+
+
+
+
+
             </td>
             
         </tr>
