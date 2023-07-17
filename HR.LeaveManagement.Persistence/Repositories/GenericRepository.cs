@@ -22,7 +22,10 @@ namespace HR.LeaveManagement.Persistence.Repositories
             await _dbContext.AddAsync(entity);
             return entity;
         }
-
+        public async Task<IReadOnlyList<T>> GetAll()
+        {
+            return await _dbContext.Set<T>().ToListAsync();
+        }
         public async Task Delete(T entity)
         {
             _dbContext.Set<T>().Remove(entity);
@@ -39,10 +42,7 @@ namespace HR.LeaveManagement.Persistence.Repositories
             return await _dbContext.Set<T>().FindAsync(id);
         }
 
-        public async Task<IReadOnlyList<T>> GetAll()
-        {
-            return await _dbContext.Set<T>().ToListAsync();
-        }
+        
 
         public async Task Update(T entity)
         {

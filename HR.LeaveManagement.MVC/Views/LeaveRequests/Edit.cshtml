@@ -27,16 +27,8 @@
                 <input asp-for="DateActioned" class="form-control" />
                 <span asp-validation-for="DateActioned" class="text-danger"></span>
             </div>
-            <div class="form-group form-check">
-                <label class="form-check-label">
-                    <input class="form-check-input" asp-for="Approved" /> @Html.DisplayNameFor(model => model.Approved)
-                </label>
-            </div>
-            <div class="form-group form-check">
-                <label class="form-check-label">
-                    <input class="form-check-input" asp-for="Cancelled" /> @Html.DisplayNameFor(model => model.Cancelled)
-                </label>
-            </div>
+            
+           
             <div class="form-group">
                 <label asp-for="StartDate" class="control-label"></label>
                 <input asp-for="StartDate" class="form-control" />
