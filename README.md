@@ -78,7 +78,7 @@ The Employees Info menu will take the user to this page.
 <img width="1434" alt="image" src="https://github.com/marindimitrov12/HR.LeaveManagementSystem/assets/63950527/efac6e24-1472-466c-b28b-22212071998c">
 Which gives us detailed information about the employees in the company.
 
-#.NET.CORE.MVC Client
+# .NET.CORE.MVC Client
 
 <img width="452" alt="image" src="https://github.com/marindimitrov12/HR.LeaveManagementSystem/assets/63950527/39ec28e6-57d1-4db0-9cf7-68514b25ebbd">
 
