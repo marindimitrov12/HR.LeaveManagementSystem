@@ -4,7 +4,7 @@
 The goal of this project is to develop a web application through which the employees of a given company will be able to make leave requests, and the managers will be able to review and approve them accordingly. The application will allow employees to edit or delete their requests while the status of the request is still pending approval. Once the manager approves or declines the respective request, the employee will immediately receive an email for information. As technologies to implement the project, I will use .NET Core Web API, .NET Core MVC Application,React.js, Entity Framework Core, BootStrap, SenGrid – Email Delivery Api, XUnit and Moq
 
 # General Requirements:
-
+ 
 Implementing Solid
 
 Implementing Clean or Onion Architecture and Best Practices
